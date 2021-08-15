@@ -17,16 +17,14 @@ from WhisperBot.bot_users import check_for_users
 
 main = [
     InlineQueryResultArticle(
-        title="Whisper Bot",
-        input_message_content=InputTextMessageContent("Write Target User's @username or id at the end of your message."),
-        url="https://t.me/StarkBots",
-        description="Write Target User's @username or id at the end of your message.",
-        thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+        title="Oda Whisper",
+        input_message_content=InputTextMessageContent("Write your message after that write Target User's @username or id."),
+        url="https://t.me/OdaDevbot",
+        description="Write your message after that write Target User's @username or id.",
+        thumb_url="https://telegra.ph/file/fa5805751e44608b1e162.png",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Learn More", url="https://t.me/WhisperStarkBot?start=start")],
-                [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-                [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                [InlineKeyboardButton("♥ More Update bots ♥", url="https://t.me/UserLazyXBot")]
             ]
         ),
     )
@@ -81,9 +79,9 @@ async def previous_target(sender):
                   title=text1,
                   input_message_content=InputTextMessageContent(
                       f"A whisper message to {mention}" + " " + text2),
-                  url="https://t.me/StarkBots",
+                  url="https://t.me/OdaDevbot",
                   description=text2,
-                  thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+                  thumb_url="https://telegra.ph/file/fa5805751e44608b1e162.png",
                   reply_markup=InlineKeyboardMarkup(
                       [
                           [
@@ -152,9 +150,9 @@ async def answer(bot: Client, query):
                     InlineQueryResultArticle(
                         title=text1,
                         input_message_content=InputTextMessageContent(f"A whisper message to {target_user.mention}" + " " + text2),
-                        url="https://t.me/StarkBots",
+                        url="https://t.me/OdaDevbot",
                         description=text2,
-                        thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+                        thumb_url="https://telegra.ph/file/fa5805751e44608b1e162.png",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
