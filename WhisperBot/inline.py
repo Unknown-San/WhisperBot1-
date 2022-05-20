@@ -17,14 +17,14 @@ from WhisperBot.bot_users import check_for_users
 
 main = [
     InlineQueryResultArticle(
-        title="Oda Whisper",
+        title="Whisper Robot",
         input_message_content=InputTextMessageContent("Write your message after that write Target User's @username or id."),
-        url="https://t.me/OdaDevbot",
+        url="https://t.me/Whipserxbot",
         description="Write your message after that write Target User's @username or id.",
-        thumb_url="https://telegra.ph/file/fa5805751e44608b1e162.png",
+        thumb_url="https://telegra.ph//file/9e807a6e4ab0a7471d797.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("♥ More Update bots ♥", url="https://t.me/UserLazyXBot")]
+                [InlineKeyboardButton("For More", url="https://t.me/AogiriNetwork")]
             ]
         ),
     )
@@ -79,9 +79,9 @@ async def previous_target(sender):
                   title=text1,
                   input_message_content=InputTextMessageContent(
                       f"A whisper message to {mention}" + " " + text2),
-                  url="https://t.me/OdaDevbot",
+                  url="https://t.me/Whisperxbot",
                   description=text2,
-                  thumb_url="https://telegra.ph/file/fa5805751e44608b1e162.png",
+                  thumb_url="https://telegra.ph//file/9e807a6e4ab0a7471d797.jpg",
                   reply_markup=InlineKeyboardMarkup(
                       [
                           [
@@ -150,9 +150,9 @@ async def answer(bot: Client, query):
                     InlineQueryResultArticle(
                         title=text1,
                         input_message_content=InputTextMessageContent(f"A whisper message to {target_user.mention}" + " " + text2),
-                        url="https://t.me/OdaDevbot",
+                        url="https://t.me/Whisperxbot",
                         description=text2,
-                        thumb_url="https://telegra.ph/file/fa5805751e44608b1e162.png",
+                        thumb_url="https://telegra.ph//file/9e807a6e4ab0a7471d797.jpg",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
